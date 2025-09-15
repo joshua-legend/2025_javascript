@@ -1,0 +1,28 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.room {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.room > img {
+  width: 140px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.room > .info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.room > .info > .roomPrice {
+  font-weight: 700;
+  font-size: 18px;
+}

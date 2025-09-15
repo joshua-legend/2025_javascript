@@ -1,0 +1,25 @@
+.item {
+  padding: 10px;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.under {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count {
+  border: 1px solid #787878;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.count > * {
+  border: none;
+  padding: 10px 15px;
+}
